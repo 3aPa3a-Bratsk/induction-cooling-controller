@@ -470,6 +470,7 @@
                 "IDF_VER=\"6.0.1\"",
                 "ESP_PLATFORM",
                 "PLATFORMIO=60200",
+                "ESP32C6",
                 ""
             ],
             "cStandard": "gnu23",

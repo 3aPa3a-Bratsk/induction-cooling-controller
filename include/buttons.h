@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 #include <stdbool.h>
-#include "driver/gpio.h"
+#include "i2c_manager.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -17,7 +17,7 @@ typedef struct {
     bool initialized;
 } button_manager_t;
 
-button_manager_t* buttons_init(uint8_t addr);
+button_manager_t* buttons_init(uint8_t addr, i2c_manager_t* i2c);
 bool buttons_update(button_manager_t* manager);
 bool button_is_pressed(button_manager_t* manager, uint8_t pin);
 bool button_is_start_pressed(button_manager_t* manager);

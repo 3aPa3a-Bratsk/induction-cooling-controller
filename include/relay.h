@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 #include <stdbool.h>
-#include "driver/gpio.h"
+#include "i2c_manager.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -15,7 +15,7 @@ typedef struct {
     bool initialized;
 } relay_manager_t;
 
-relay_manager_t* relay_init(uint8_t addr);
+relay_manager_t* relay_init(uint8_t addr, i2c_manager_t* i2c);
 void relay_set(relay_manager_t* manager, uint8_t relay_num, bool state);
 bool relay_get(relay_manager_t* manager, uint8_t relay_num);
 void relay_set_all(relay_manager_t* manager, uint16_t state);
