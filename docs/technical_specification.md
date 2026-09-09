@@ -6,7 +6,7 @@
 |----------|-------|
 | Document ID | IAS-TS-2024-001 |
 | Version | 1.0 |
-| Date | 2024-01-XX |
+| Date | 2026-09-09 |
 | Status | Released |
 | Author | Industrial Automation Systems |
 
