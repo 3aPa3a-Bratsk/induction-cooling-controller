@@ -8,7 +8,7 @@
 | Version | 1.0 |
 | Date | 2026-09-09 |
 | Status | Released |
-| Author | Brtsk-Service.ru |
+| Author | Bratsk-Service.ru |
 
 ---
 
