@@ -1,0 +1,15 @@
+#ifndef VERSION_H
+#define VERSION_H
+
+#define FIRMWARE_NAME "Induction Cooling Controller"
+#define FIRMWARE_VERSION_MAJOR 1
+#define FIRMWARE_VERSION_MINOR 0
+#define FIRMWARE_VERSION_PATCH 0
+#define FIRMWARE_VERSION "1.0.0"
+#define FIRMWARE_BUILD_DATE __DATE__
+#define FIRMWARE_BUILD_TIME __TIME__
+
+#define FIRMWARE_FULL_NAME FIRMWARE_NAME " v" FIRMWARE_VERSION
+#define FIRMWARE_COPYRIGHT "Copyright (c) 2024, All Rights Reserved"
+
+#endif // VERSION_H

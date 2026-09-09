@@ -1,0 +1,61 @@
+# PlatformIO
+.pio/
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/.browse.vc.db
+.vscode/ipch
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+*.txt
+serial_monitor.log
+*.out
+
+# Upload
+*.tmp
+*.bak
+*.old
+
+# Secrets
+secrets.h
+credentials.h
+*.pem
+*.crt
+*.key
+.env
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
